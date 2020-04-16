@@ -11,6 +11,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.props.catPics)
     return (
       <div>
         <h1>CatBook</h1>
